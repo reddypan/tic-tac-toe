@@ -1,0 +1,86 @@
+body {
+    background-image: url("photo-1478428036186-d435e23988ea.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#past-section {
+    background-color: #66FCF1;
+    border-style: ridge;
+}
+
+#future-section {
+    background-color: #EAE7DC;
+    border-style: ridge;
+}
+
+.aside-header {
+    background-color: #EAE7DC;
+    border-style: ridge;
+
+}
+
+header {
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+footer{
+    clear: both;
+    background-color: #0b0c10 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: ridge;
+    text-align: center;
+    color: white;
+}
+
+.section-header{
+    font-size: 17px;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.classes-schedule{
+    background-color: #EAE7DC;
+    border-style: ridge;
+}
+
+.contact-header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+#first, #last,.gender, #email, #comments, #date, #speed{
+    color:white;
+}
+
+.underline{
+    color: orange;
+}
+
+#textfor{
+    text-align: center;
+    color:white;
+    background-color: green;
+    display: block;
+}
+
+#form-input1{
+    color:white;
+}
+
+#speed, #date{
+    color: black;
+}

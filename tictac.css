@@ -1,0 +1,105 @@
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .title {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+  }
+  
+  .gameboard {
+    margin: 3em auto 0 auto;
+    padding: 1.1em .25em .9em .25em;
+    border-image-slice: 25;
+    border-image-width: 10px;
+    max-width: 500px;
+    background-color: #222222;
+    overflow: hidden;
+  }
+  
+  .square {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url('chalkboard.jpg') center;
+    margin: 3px;
+    cursor: cell;
+  }
+  
+  .content {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    margin: 5%;
+    overflow: hidden;
+  }
+  
+  .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .game-tile {
+    font-size: 5em;
+    color: white;
+  }
+  
+  .winning-tile {
+    background-color: #333333;
+  }
+  
+  .letter-options {
+    margin-top: 1em;
+  }
+  
+  .options {
+    color: white;
+    font-size: 2em;
+  }
+  
+  .start-btn {
+    font-size: 1em;
+    box-shadow: 0 0 10px #000000;
+    margin-top: 0;
+  }
+  
+  input {
+    cursor: pointer;
+  }
+  
+  #letter{
+      text-align:left;
+      font-size: 0.60em;
+  }
+
+  #letter1{
+    text-align:left;
+    font-size: 0.75em;
+}
+
+body {
+    -webkit-user-select: none!important;
+    -moz-user-select: -moz-none!important;
+    -ms-user-select: none!important;
+    user-select: none!important;
+    background-color: #222222;
+    margin-bottom: 120px;
+    min-width: 300px;
+    text-align: center;
+  }
